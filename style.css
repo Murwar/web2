@@ -4,6 +4,8 @@ html {
 }
 
 .loader{
+    display: block;
+    height: 180px;
     margin: 17% 37%;
     object-position: center;
 }
