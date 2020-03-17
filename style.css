@@ -45,7 +45,7 @@ html {
 
 .coffee_step3{
     position: absolute;
-    bottom: 30%;
+    top: 55%;
     left: 37%;
     animation: step3 2s linear infinite;
     
@@ -66,7 +66,7 @@ html {
 
 .coffee_step4{
     position: absolute;
-    bottom: 30%;
+    top: 55%;
     left: 37%;
     animation: step4 2s linear infinite;
     
