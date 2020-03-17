@@ -1,0 +1,98 @@
+html {
+    background-color: #d7ccc8;
+    
+}
+
+.loader{
+    margin: 17% 37%;
+    object-position: center;
+}
+.coffee_step1{
+    position: absolute;
+    animation-duration: 2s;
+    animation-name: step1;
+    animation-iteration-count: infinite;
+}
+
+@keyframes step1{
+    from{
+        margin-left: 0%;
+        transform: rotate(0deg);
+    }
+    to{
+        margin-left: 0%;
+        transform: rotate(0deg);
+    }
+    50%{
+        margin-left: 15%;
+        transform: rotate(360deg);
+    }
+}
+
+.coffee_step2{
+    position: absolute;
+    animation-duration: 2s;
+    animation-name: step2;
+    animation-iteration-count: infinite;
+}
+
+@keyframes step2{
+    from{
+        margin-left: 15%;
+        transform: rotate(0deg);
+    }
+    to{
+        margin-left: 15%;
+        transform: rotate(0deg);
+    }
+    50%{
+        margin-left: 0%;
+        transform: rotate(360deg);
+    }
+}
+
+.coffee_step3{
+    position: absolute;
+    animation-duration: 2s;
+    animation-name: step3;
+    animation-iteration-count: infinite;
+    bottom: 30%;
+}
+
+@keyframes step3{
+    from{
+        margin-left: 0%;
+        transform: rotate(0deg);
+    }
+    to{
+        margin-left: 0%;
+        transform: rotate(0deg);
+    }
+    50%{
+        margin-left: 15%;
+        transform: rotate(360deg);
+    }
+}
+
+.coffee_step4{
+    position: absolute;
+    animation-duration: 2s;
+    animation-name: step4;
+    animation-iteration-count: infinite;
+    bottom: 30%;
+}
+
+@keyframes step4{
+    from{
+        margin-left: 15%;
+        transform: rotate(0deg);
+    }
+    to{
+        margin-left: 15%;
+        transform: rotate(0deg);
+    }
+    50%{
+        margin-left: 0%;
+        transform: rotate(360deg);
+    }
+}
