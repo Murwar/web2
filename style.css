@@ -1,86 +1,97 @@
 html {
     background-color: #d7ccc8;
-    
+    display: flex;
+    justify-content: center;
+    height: 100%;
 }
 
-.coffee_step1{
+.loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line1{
     position: absolute;
     top: 35%;
-    left: 37%;
+    left: 45%;
+}
+.line2{
+    position: absolute;
+    top: 55%;
+    left: 45%;
+}
+.coffee_step1{
+    position: absolute;
     animation: step1 2s linear infinite;
 }
 
 @keyframes step1{
     from { 
-        transform: translateX(-20%) rotate(0deg); 
+        transform: translateX(-100%) rotate(0deg); 
     }
     to  {  
-        transform: translateX(-20%) rotate(0deg); 
+        transform: translateX(-100%) rotate(0deg); 
     }
     
     50%{
-        transform: translateX(200%) rotate(360deg); 
+        transform: translateX(100%) rotate(360deg); 
     }
 }
 
 .coffee_step2{
     position: absolute;
-    top: 35%;
-    left: 37%;
     animation: step2 2s linear infinite;
 }
 
 @keyframes step2{
     from { 
-        transform: translateX(200%) rotate(0deg); 
+        transform: translateX(100%) rotate(0deg); 
     }
     to  {  
-        transform: translateX(200%) rotate(0deg); 
+        transform: translateX(100%) rotate(0deg); 
     }
     
     50%{
-        transform: translateX(-20%) rotate(360deg); 
+        transform: translateX(-100%) rotate(360deg); 
     }
 }
 
 .coffee_step3{
     position: absolute;
-    top: 55%;
-    left: 37%;
+
     animation: step3 2s linear infinite;
     
 }
 
 @keyframes step3{
     from { 
-        transform: translateX(200%) rotate(0deg); 
+        transform: translateX(100%) rotate(0deg); 
     }
     to  {  
-        transform: translateX(200%) rotate(0deg); 
+        transform: translateX(100%) rotate(0deg); 
     }
     
     50%{
-        transform: translateX(-20%) rotate(360deg); 
+        transform: translateX(-100%) rotate(360deg); 
     }
 }
 
 .coffee_step4{
     position: absolute;
-    top: 55%;
-    left: 37%;
     animation: step4 2s linear infinite;
     
 }
 
 @keyframes step4{
     from { 
-        transform: translateX(-20%) rotate(0deg); 
+        transform: translateX(-100%) rotate(0deg); 
     }
     to  {  
-        transform: translateX(-20%) rotate(0deg); 
+        transform: translateX(-100%) rotate(0deg); 
     }
     
     50%{
-        transform: translateX(200%) rotate(360deg); 
+        transform: translateX(100%) rotate(360deg); 
     }
 }
