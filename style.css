@@ -3,98 +3,84 @@ html {
     
 }
 
-.loader{
-    display: block;
-    height: 180px;
-    margin: 17% 37%;
-    object-position: center;
-}
 .coffee_step1{
     position: absolute;
-    animation-duration: 2s;
-    animation-name: step1;
-    animation-iteration-count: infinite;
+    top: 35%;
+    left: 37%;
+    animation: step1 2s linear infinite;
 }
 
 @keyframes step1{
-    from{
-        margin-left: 0%;
-        transform: rotate(0deg);
+    from { 
+        transform: translateX(-20%) rotate(0deg); 
     }
-    to{
-        margin-left: 0%;
-        transform: rotate(0deg);
+    to  {  
+        transform: translateX(-20%) rotate(0deg); 
     }
+    
     50%{
-        margin-left: 15%;
-        transform: rotate(360deg);
+        transform: translateX(200%) rotate(360deg); 
     }
 }
 
 .coffee_step2{
     position: absolute;
-    animation-duration: 2s;
-    animation-name: step2;
-    animation-iteration-count: infinite;
+    top: 35%;
+    left: 37%;
+    animation: step2 2s linear infinite;
 }
 
 @keyframes step2{
-    from{
-        margin-left: 15%;
-        transform: rotate(0deg);
+    from { 
+        transform: translateX(200%) rotate(0deg); 
     }
-    to{
-        margin-left: 15%;
-        transform: rotate(0deg);
+    to  {  
+        transform: translateX(200%) rotate(0deg); 
     }
+    
     50%{
-        margin-left: 0%;
-        transform: rotate(360deg);
+        transform: translateX(-20%) rotate(360deg); 
     }
 }
 
 .coffee_step3{
     position: absolute;
-    animation-duration: 2s;
-    animation-name: step3;
-    animation-iteration-count: infinite;
     bottom: 30%;
+    left: 37%;
+    animation: step3 2s linear infinite;
+    
 }
 
 @keyframes step3{
-    from{
-        margin-left: 0%;
-        transform: rotate(0deg);
+    from { 
+        transform: translateX(200%) rotate(0deg); 
     }
-    to{
-        margin-left: 0%;
-        transform: rotate(0deg);
+    to  {  
+        transform: translateX(200%) rotate(0deg); 
     }
+    
     50%{
-        margin-left: 15%;
-        transform: rotate(360deg);
+        transform: translateX(-20%) rotate(360deg); 
     }
 }
 
 .coffee_step4{
     position: absolute;
-    animation-duration: 2s;
-    animation-name: step4;
-    animation-iteration-count: infinite;
     bottom: 30%;
+    left: 37%;
+    animation: step4 2s linear infinite;
+    
 }
 
 @keyframes step4{
-    from{
-        margin-left: 15%;
-        transform: rotate(0deg);
+    from { 
+        transform: translateX(-20%) rotate(0deg); 
     }
-    to{
-        margin-left: 15%;
-        transform: rotate(0deg);
+    to  {  
+        transform: translateX(-20%) rotate(0deg); 
     }
+    
     50%{
-        margin-left: 0%;
-        transform: rotate(360deg);
+        transform: translateX(200%) rotate(360deg); 
     }
 }
